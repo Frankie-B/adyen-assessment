@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../stylesheets/main.scss';
+import { Link } from 'react-router-dom';
 
 const API_KEY = `ffb49333a7121d32f97a98efaa4905b9`;
 
@@ -78,9 +79,9 @@ export default class Amsterdam extends Component {
               )}
             </div>
 
-            <a href={'/flights'}>
+            <Link to={'/flights'}>
               <button>Check Flights</button>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
