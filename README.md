@@ -1,6 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+## All the necessary dependencies can be installed by running npm i
 
 In the project directory, you can run:
 
@@ -9,7 +7,12 @@ In the project directory, you can run:
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-[Live Demo]()
+[Live Demo](adyen-assessment.surge.sh)
+
+## searching Flights
+
+NOTE: Not all dates are available for all cities, the search is refined to only 3 Amsterdam, Barcelona and Budapest. to search for
+flight, use ITIA short code LHR for London Heathrow and working dates to search can be either 13/10/2020 0r 18/11/2020
 
 ## Task
 
@@ -33,3 +36,6 @@ I chose to use OpenWeatherMap API to get back weather data and the kiwi api for 
 - The second input i feel should have been a date input, due to the format of date from an input being yyyy/mm/dd this also would not work for the request which needed to be dd/mm/yyyy. I worked around that making the type text simply to allow for the correct parameter date format.
 
 The use of the api forces a lot of assumptions. That Jamie knows airport short codes, and that she would be leaving from London Heathrow. while not realistic, work for the demonstration purposes.
+
+There were also challenges with deploying this app, github pages/netlify and heroku all did not play nice with react router. In the end
+I was able to find a solution that worked.
