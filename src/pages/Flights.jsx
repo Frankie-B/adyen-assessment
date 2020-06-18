@@ -21,7 +21,8 @@ class Flights extends Component {
     const { data } = await flightApi.json();
     if (!data) {
       this.setState({
-        error: 'Search cannot be left empty',
+        error:
+          'Something went wrong, please check input fields are not empty or the information is not incorrect',
       });
     } else {
       if (depart === 'LHR' && date) {
