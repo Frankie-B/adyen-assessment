@@ -1,4 +1,6 @@
-## All the necessary dependencies can be installed by running npm i
+## To install dependencies
+
+running npm i
 
 In the project directory, you can run:
 
