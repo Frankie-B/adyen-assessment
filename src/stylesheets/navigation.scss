@@ -1,0 +1,40 @@
+.navigation {
+  .home-icon {
+    display: none;
+  }
+  #basic-navbar-nav {
+    a {
+      a {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+  .toggle:hover,
+  .toggle:active {
+    outline: none !important;
+    box-shadow: none;
+  }
+  margin-bottom: 1.5rem;
+  .navbar {
+    width: 100%;
+    .collapse {
+      .nav-link:hover {
+        border-bottom: 1px solid #0abf53;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .navigation {
+    .home-icon {
+      display: block;
+    }
+    width: 90vw;
+    #basic-navbar-nav {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+}

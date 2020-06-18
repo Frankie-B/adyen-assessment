@@ -1,0 +1,55 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  .heading-container {
+    margin-top: 1rem;
+    .home-heading {
+      font-size: 1.5rem;
+    }
+    .home-subheading {
+      font-size: 1rem;
+    }
+  }
+
+  .home-subheading {
+    margin-bottom: 2rem;
+  }
+
+  button {
+    border: 0;
+    padding: 8px 20px;
+    margin: 0 2px;
+    border-radius: 2px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: #0abf53;
+    color: #fff;
+    font-weight: 100;
+  }
+  button:hover {
+    background-color: #078f3e;
+  }
+
+  button:focus,
+  button:active {
+    outline: none !important;
+    box-shadow: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .home {
+    .heading-container {
+      .home-heading {
+        font-size: 2.5rem;
+      }
+      .home-subheading {
+        font-size: 2rem;
+      }
+    }
+  }
+}

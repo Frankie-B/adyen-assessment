@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+@import 'navigation.scss';
+@import './headings.scss';
+@import './home.scss';
+@import './locations.scss';
+@import './form.scss';
+@import './card.scss';
+@import './flights.scss';
+@import './footer.scss';
+
+body {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+.highlight {
+  color: #0abf53;
+}
